@@ -1,16 +1,3 @@
-# Imprima os números de 0 a 10 no terminal
-
-# contador = 0
-
-# while contador < 11:
-#     print(contador)
-#     contador += 1
-
-# Peça números até que a pessoa escreva o número 0
-# Faça a soma desses números
-# O maior número
-# O menor número
-# Quantos números negativos foram digitados
 numero = -1
 soma = 0
 
