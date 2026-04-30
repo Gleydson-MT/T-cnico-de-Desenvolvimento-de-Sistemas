@@ -1,4 +1,20 @@
-# 2. Crie um programa que pede números inteiros até que seja digitado -1. Quando o usuário digitar -1 exiba a soma de todos os números
+# 2. Crie um programa que pede números inteiros até que seja digitado -1. Quando o usuário digitar -1 encerre e  exiba a soma de todos os números
+#soma = 0
 
-qnt_de_num = int(input("Digite o número que desejar (Digite -1 para sair): "))
+#while numero != -1:
+#    numero == int(input("Digite um número:"))
+#    if numero != -1:
+#        soma += numero
 
+#print(f"A soma do número foi: {soma}")
+
+soma = 0
+
+while True:
+    numero = int(input("Digite um número: "))
+
+    if numero == -1:
+        break
+    soma += numero
+
+print(f"A soma dos números foi: {soma}")
