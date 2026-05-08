@@ -36,10 +36,10 @@ print(""" LISTA DE PESSOAS """)
 pessoa = ["Raiane", 25, 1.45, True]
 
 print("""
-      
-      
-      Nome: {pessoa}[0]
-      Idade: {pessoa}[1] anos
-      Altura: {pessoa}[2] metros
-      Conta paga: {pessoa}[3]
-      """)
+      Dados Pessoais:
+Nome: {pessoa[0]}
+Idade: {pessoa[1]}
+Altura: {pessoa[2]}
+Conta paga: {pessoa[3]}
+
+         """)
